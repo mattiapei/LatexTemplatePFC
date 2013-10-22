@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PFC Template 
+%
+% Version 1.0 (20/10/13)
+%
+%
+% Original author:
+% Mattia Peirano 
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% The template makes use of the "toptesi" package
+% http://www.ctan.org/tex-archive/macros/latex/contrib/toptesi
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,twoside,openright,english,spanish]{toptesi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%		PACKAGES		%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%     COLORS      %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%OPTIONS%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% ABSTRACTS %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{poliabstract}[1]
+  {\renewcommand{\abstractname}{#1}\begin{abstract}}
+  {\end{abstract}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%    END PREAMBLE    %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\input{Portada.tex}
+
+\begin{flushright}
+\null\vspace{\stretch{1}}
+{\textit{A mi hermana}}
+\vspace{\stretch{2}}\null
+\end{flushright}
+\thispagestyle{empty}
+\pagebreak
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+\subsection*{\centering{Acknowledgements}}
+\thispagestyle{empty}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+Morbi hendrerit enim non justo venenatis, pharetra volutpat justo lacinia. Phasellus in velit tempor, sagittis leo eu, venenatis libero. Nunc vitae semper nunc. Nulla eros nunc, semper eu dolor ac, vulputate placerat odio. Mauris pretium pulvinar tellus, ut viverra ante. Praesent interdum tellus eu imperdiet tempor. Phasellus iaculis pulvinar placerat. Nunc lorem orci, lacinia et lorem vel, pretium semper turpis. Cras ligula felis, ultricies at sollicitudin fermentum, rutrum eget lacus. Fusce cursus justo velit. Nulla facilisi. Fusce dolor metus, laoreet aliquam porta non, iaculis sit amet augue. Integer venenatis non risus non adipiscing. Aliquam tristique augue eget tellus mollis, in placerat risus adipiscing. Sed vitae diam sapien.
+
+Fusce tincidunt justo et risus ultricies, nec iaculis lacus suscipit. Etiam semper accumsan urna, hendrerit cursus erat vestibulum nec. Aliquam tempus sem dui, non tincidunt mauris tincidunt vitae. Sed tellus lectus, tincidunt vitae eros egestas, malesuada fringilla velit. Duis tempor sodales mauris, nec pulvinar ante elementum vitae. Ut ac purus id dui suscipit lobortis. Vivamus nec dolor lacinia, scelerisque turpis id, viverra velit. Aenean eget tristique mauris, at rhoncus nunc.
+
+\begin{flushright}
+Muchas gracias\\
+\vspace{0.3 cm}
+Madrid, February 1, 2013
+\end{flushright}
+
+\clearpage
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+\selectlanguage{english}
+\begin{poliabstract}{Abstract} 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+Morbi hendrerit enim non justo venenatis, pharetra volutpat justo lacinia. Phasellus in velit tempor, sagittis leo eu, venenatis libero. Nunc vitae semper nunc. Nulla eros nunc, semper eu dolor ac, vulputate placerat odio. Mauris pretium pulvinar tellus, ut viverra ante. Praesent interdum tellus eu imperdiet tempor. Phasellus iaculis pulvinar placerat. Nunc lorem orci, lacinia et lorem vel, pretium semper turpis. Cras ligula felis, ultricies at sollicitudin fermentum, rutrum eget lacus. Fusce cursus justo velit. Nulla facilisi. Fusce dolor metus, laoreet aliquam porta non, iaculis sit amet augue. Integer venenatis non risus non adipiscing. Aliquam tristique augue eget tellus mollis, in placerat risus adipiscing. Sed vitae diam sapien.
+
+Fusce tincidunt justo et risus ultricies, nec iaculis lacus suscipit. Etiam semper accumsan urna, hendrerit cursus erat vestibulum nec. Aliquam tempus sem dui, non tincidunt mauris tincidunt vitae. Sed tellus lectus, tincidunt vitae eros egestas, malesuada fringilla velit. Duis tempor sodales mauris, nec pulvinar ante elementum vitae. Ut ac purus id dui suscipit lobortis. Vivamus nec dolor lacinia, scelerisque turpis id, viverra velit. Aenean eget tristique mauris, at rhoncus nunc.\\
+\\
+\textbf{Keywords:} Lorem ipsum dolor sit amet.
+\end{poliabstract}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+\selectlanguage{spanish}
+\begin{poliabstract}{Resumen}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+Morbi hendrerit enim non justo venenatis, pharetra volutpat justo lacinia. Phasellus in velit tempor, sagittis leo eu, venenatis libero. Nunc vitae semper nunc. Nulla eros nunc, semper eu dolor ac, vulputate placerat odio. Mauris pretium pulvinar tellus, ut viverra ante. Praesent interdum tellus eu imperdiet tempor. Phasellus iaculis pulvinar placerat. Nunc lorem orci, lacinia et lorem vel, pretium semper turpis. Cras ligula felis, ultricies at sollicitudin fermentum, rutrum eget lacus. Fusce cursus justo velit. Nulla facilisi. Fusce dolor metus, laoreet aliquam porta non, iaculis sit amet augue. Integer venenatis non risus non adipiscing. Aliquam tristique augue eget tellus mollis, in placerat risus adipiscing. Sed vitae diam sapien.
+
+Fusce tincidunt justo et risus ultricies, nec iaculis lacus suscipit. Etiam semper accumsan urna, hendrerit cursus erat vestibulum nec. Aliquam tempus sem dui, non tincidunt mauris tincidunt vitae. Sed tellus lectus, tincidunt vitae eros egestas, malesuada fringilla velit. Duis tempor sodales mauris, nec pulvinar ante elementum vitae. Ut ac purus id dui suscipit lobortis. Vivamus nec dolor lacinia, scelerisque turpis id, viverra velit. Aenean eget tristique mauris, at rhoncus nunc.\\
+\\
+\textbf{Palabras clave:} Lorem ipsum dolor sit amet.
+\end{poliabstract}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+% SELECT your language
+\selectlanguage{english}
+
+\pagenumbering{roman}
+
+\frontmatter
+\tableofcontents
+\listoffigures 
+\listoftables
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+\pagenumbering{arabic}
+\mainmatter
+
+\chapter{Introduction}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+
+\section{Technical Objectives}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+
+\section{Didactic Objectives}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+
+\section{Work Plan}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+
+\chapter{Results and conclusions}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+
+\appendix
+\chapter{Configuration files}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo neque, varius sit amet lectus sed, laoreet convallis enim. Duis id est ut nisl ornare interdum non sed neque. Maecenas sit amet dignissim nunc. Maecenas malesuada vitae tellus sit amet vestibulum. Nam tempor ligula sit amet lectus malesuada cursus. Ut volutpat mollis urna, sit amet cursus sem malesuada ac. Aenean ullamcorper magna non ante malesuada, quis vehicula ipsum sodales. Fusce hendrerit dapibus lorem id pretium. Donec consectetur ipsum a purus bibendum, ut malesuada nibh auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus dictum pretium semper.
+
+\pagebreak
+\newpage
+\bibliographystyle{unsrt}
+\bibliography{bib}
+
+\vspace*{15cm}
+\begin{flushright}
+\textbf{Author:} Nombre y Apellido\hspace*{2cm}\\
+\vspace{3cm}
+\textbf{Date:\hspace*{4cm}}
+\end{flushright}
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%   INDEX   %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
